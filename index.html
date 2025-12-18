@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logananthu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c345f27622.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- -----------header------------ -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Welcome_logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" target="_blank">Home</a></li>
+                    <li><a href="#about" target="_parent">About</a></li>
+                    <li><a href="#services" target="_self">Serivce</a></li>
+                    <li><a href="#portfolio" target="_parent">Portfolio</a></li>
+                    <li><a href="#contact" target="_parent">Contact</a></li>
+                    <!-- <i class="fa-solid fa-xmark" onclick="closemenu()">Menu</i> -->
+                    <h3 class="fa-solid fa-xmark" onclick="closemenu()">Menu</h3>
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()">Menuuu</i> -->
+                <h3 class="fa-solid fa-bars" onclick="openmenu()">Menuuu</h3>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm<span> Logananthu </span></h1>
+                <p>Web Developer | Java Developer</p>
+            </div>
+        </div>
+    </div>
+            <!-- --------about------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/mygood.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly motivated and detail-oriented Java Full Stack Developer trainee with a solid foundation in Core Java,
+HTML, CSS, and MySQL. Skilled in logical problem-solving and programming, with hands-on experience in
+developing projects like Console-based Bank Management System, Smart Aquarium System using IoT, and
+portfolio websites. Eager to apply technical knowledge and continuously enhance skills to contribute effectively
+to innovative IT solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Certification')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end</span><br>Html, Css, JavaScript, React</li>
+                            <li><span>Back-end </span><br>Java, Spring, Hiberneet</li>
+                            <li><span>DataBase</span><br>MySql</li>
+                            <li><span>Tools</span><br> Git & GitHub, VS coded, Eclipse</li>
+                            <li><span>C Programming</span><br>Carrear Start</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certification">
+                        <ul>
+                            <li><span>Jan 25 - Jul 25</span><br>Java FullStack Web Development</li>
+                            <li><span>Sep 24 - Oct 24</span><br>Html and Css</li>
+                            <li><span>Dec 23 - Feb 24</span><br>C Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>Electronnics and Communication Engineering</li>
+                            <li><span>2017 - 2020</span><br>Government Higher Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--- --------------Services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am a Web Developer skilled in building responsive, reliable, and scalable web applications. I work across both front-end and back-end technologies, using HTML, CSS, JavaScript, React, Java, and MySQL to deliver complete solutions. I focus on clean code, performance optimization, and modern UI/UX standards. I enjoy creating end-to-end web experiences that are functional, secure, and user-friendly.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Front-end</h2>
+                    <p>I am a Front-End Developer focused on building responsive, reliable, and user-friendly web interfaces. I create modern web applications using HTML, CSS, JavaScript, and React.js, ensuring smooth performance across all devices and browsers. I follow clean coding practices and UI/UX principles to deliver scalable and maintainable solutions. I enjoy transforming ideas into interactive experiences and continuously improving my skills through real-world projects.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>Back-end</h2>
+                    <p>I am a Back-End Developer focused on building secure, scalable, and reliable server-side applications. I work with Java, Spring Boot, and MySQL to design efficient APIs, manage databases, and handle business logic. I follow best practices for data security, performance optimization, and clean architecture. I enjoy developing robust backend systems that support smooth and responsive front-end experiences.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------Portfolio-------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/mygood.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ad velit nesciunt, alias expedita temporibus dolores. Natus, nobis dolore. Est impedit alias totam dicta ab in sapiente. Debitis, dolorem praesentium.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/mygood.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ad velit nesciunt, alias expedita temporibus dolores. Natus, nobis dolore. Est impedit alias totam dicta ab in sapiente. Debitis, dolorem praesentium.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/mygood.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil ad velit nesciunt, alias expedita temporibus dolores. Natus, nobis dolore. Est impedit alias totam dicta ab in sapiente. Debitis, dolorem praesentium.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more </a>
+        </div>
+    </div>
+
+    <!--------contact-------->
+
+    <img src="logo/github.svg" >
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>svtnanthu1244@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8778201584</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/logananthu-developer/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/_nanthu_04_?igsh=bWtraGo5cHAzeW1n"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1JbAwdV3pM/"><i class="bi bi-facebook"></i></a>
+                        <a href="https://github.com/Logananthu1244"><i class="bi bi-github"></i></a>
+
+                    </div>
+                    <a href="img/Logananthu_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------script------------------ -->
+
+    <script src="JavaScript.js"></script>
+
+</body>
+</html>
